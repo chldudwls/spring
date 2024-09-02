@@ -9,18 +9,23 @@ public class Computer {
     // 필드 주입
     @Autowired
     private CPU cpu;
-    private Ssd ssd;
 
-    // 생성자 주입
+    // 생성자 주입(권장)
+    private RAM ram;
+
     @Autowired
-    public Computer(Ram ram){
+    public Computer(RAM ram){
         this.ram = ram;
     }
-    //
+
+    // 세터 주입
+    private SSD ssd;
+
     @Autowired
-    public void set(Ssd ssd){
+    public void setSsd(SSD ssd) {
         this.ssd = ssd;
     }
+
 
     public void show(){
         cpu.show();
