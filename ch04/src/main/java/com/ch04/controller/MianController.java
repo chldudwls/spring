@@ -1,6 +1,5 @@
-package controller;
+package com.ch04.controller;
 
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,16 +10,20 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class MianController {
 
     @RequestMapping(value =  "/hello", method = RequestMethod.GET)
-    publec void hello(){
+    public String hello(){
         System.out.println("hello...");
+        return "hello";
     }
 
     @GetMapping("/welcome")
-    public void welcome(){
-
+    public String welcome(){
+        System.out.println("welcome...");
+        return "welcome";
     }
 
-    public void greeting(){
-
+    @GetMapping("/greeting")
+    public String greeting(){
+        System.out.println("greeting...");
+        return "greeting";
     }
 }

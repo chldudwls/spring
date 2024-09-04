@@ -18,9 +18,9 @@ public class Computer {
         this.ram = ram;
     }
 
+
     // 세터 주입
     private SSD ssd;
-
     @Autowired
     public void setSsd(SSD ssd) {
         this.ssd = ssd;

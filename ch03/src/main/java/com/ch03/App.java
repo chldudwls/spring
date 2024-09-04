@@ -1,5 +1,9 @@
 package com.ch03;
 
+import com.ch03.config.AppConfig;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 /**
  * 날짜 : 2024/09/03
  * 이름 : 최영진
@@ -47,6 +51,19 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+
+
+        MyService service = (MyService) context.getBean("myService");
+
+        System.out.println("----------------");
+        service.insert();
+        System.out.println("----------------");
+        service.select("a101");
+        System.out.println("----------------");
+        service.delete();
+        System.out.println("----------------");
+        service.update();
+        System.out.println("----------------");
     }
 }
