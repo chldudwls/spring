@@ -10,37 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76e0e7d2-f4a0-4293-bfcb-2449d311a9c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ch04/config/JdbcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ch04/controller/User2Contorller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ch04/controller/user1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ch04/dao/User1Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ch04/dao/User1RowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ch04/dao/User2Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ch04/dao/User2RowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ch04/dto/User1Dto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ch04/dto/User2Dto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ch04/service/User1Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ch04/service/User2Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user1/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user1/modify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user1/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user2/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user2/modify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user2/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch02/src/main/java/com/ch02/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch02/src/main/java/com/ch02/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch02/src/main/java/com/ch02/sub2/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch02/src/main/java/com/ch02/sub2/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch03/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch03/src/main/java/com/ch03/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch03/src/main/java/com/ch03/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch03/src/main/java/com/ch03/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch03/src/main/java/com/ch03/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/java/com/ch05/Controller/User1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/java/com/ch05/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/java/com/ch05/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/java/com/ch05/config/MyWebAppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/java/com/ch05/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/java/com/ch05/dao/User1Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/java/com/ch05/dto/User1Dto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/java/com/ch05/service/User1Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/resources/mapper/user1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ch04/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ch04/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ch04/config/MyWebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ch04/config/MyWebAppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ch04/controller/MianController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ch04/controller/MianController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/greeting.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/greeting.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +75,7 @@
     "Tomcat Server.Server.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lotte4/Desktop/warkspace/spring/ch04/src/main/webapp/WEB-INF/views/user2",
+    "last_opened_file_path": "C:/Users/lotte4/Desktop/warkspace/spring/ch04",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -240,6 +228,8 @@
       <updated>1725328534531</updated>
       <workItem from="1725328535607" duration="6040000" />
       <workItem from="1725408433867" duration="15947000" />
+      <workItem from="1725501566085" duration="60000" />
+      <workItem from="1725501660350" duration="2833000" />
     </task>
     <servers />
   </component>
