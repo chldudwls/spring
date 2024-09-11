@@ -20,7 +20,6 @@ public class MainController {
         // 로그인 사용자 인증객체 가져오기
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         log.info(authentication);
-
         /*
         MyUserDetails myUserDetails = (MyUserDetails) authentication.getPrincipal();
 
@@ -31,10 +30,6 @@ public class MainController {
         }
         model.addAttribute("user", user);
         */
-
-
-
-
         return "index";
     }
 
